@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+   
+}
+
+/* global message */
+
+.global{
+    background-color: skyblue; 
+    padding: 10px 0;
+}
+
+.global > div{
+    display: flex;
+    justify-content:space-between;
+
+}
+/* <!-- header section --> */
+header{
+    background: blue;
+    color: white;
+    padding: 10px 0;
+    font-size: 24px;
+
+}
+header > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li {
+    margin-left: 1rem;
+}
+
+/* <!-- Hero section --> */
+.hero{
+    background: url(./assets/Hero.jpg) no-repeat center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    width: 450px;
+    background: black;
+    color: white;
+    padding: 32px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-content hr{
+    width: 100%;
+}
+
+
+/* <!-- latest post section --> */
+
+.latest{
+    background:url(./assets/Hero.jpg) no-repeat;
+
+}
+
+.main{
+    display: flex;
+
+
+}
+
+.articles{
+    background: red;
+    width: 66%;
+
+
+}
+
+.side-links{
+    background: blue;
+    width: 34%;
+
+}
+
+/* <!-- Recommendation --> */
+
+/* <!-- Subscribe section --> */
+
+/* <!-- footer --> */
+footer{
+    background: black;
+    color: white;
+    padding: 64px;
+    text-align: center;
+    margin-top: 32px;
+}
